@@ -1,10 +1,9 @@
 def prime?(integer)
+  array = [2...integer]
   if integer < 2 
     false
   else 
-    
     integer.each do |x|
-      x = 2..integer
       integer % x == 0
       true
     end
