@@ -1,3 +1,5 @@
+require "pry"
+
 def prime?(integer)
   
   range = 2...integer
