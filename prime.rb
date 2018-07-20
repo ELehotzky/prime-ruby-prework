@@ -2,8 +2,9 @@ def prime?(integer)
   if integer < 2 
     false
   else 
-    x = 2..integer
+    
     integer.each do |x|
+      x = 2..integer
       integer % x == 0
       true
     end
