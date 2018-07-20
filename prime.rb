@@ -1,6 +1,7 @@
 def prime?(integer)
   
   range = 2...integer
+  array = (range).to_a 
   
   if integer < 2 
     false
