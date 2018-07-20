@@ -2,8 +2,6 @@ def prime?(integer)
   
   if integer < 2 
     false
-  elsif integer == 3
-    true
   elsif 
     array = (2...integer).to_a
     array.each do |x|
