@@ -9,6 +9,7 @@ def prime?(integer)
     false
   elsif 
     array = (2...integer).to_a
+    array.map(&:to_i)
     array.each do |x|
       integer % x == 0
       true
