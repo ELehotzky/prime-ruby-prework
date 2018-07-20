@@ -4,7 +4,6 @@ def prime?(integer)
   
   range = 2...integer
   array = (range).to_a 
-  binding.pry
   if integer < 2 
     false
   elsif 
