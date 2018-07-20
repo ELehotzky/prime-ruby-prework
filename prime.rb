@@ -1,5 +1,5 @@
 def prime?(integer)
-  array = [2...integer]
+  array = (2...integer).to_a
   if integer < 2 
     false
   else 
