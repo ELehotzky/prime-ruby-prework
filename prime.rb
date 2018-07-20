@@ -3,7 +3,7 @@ def prime?(integer)
     false
   elsif integer == 2 || integer == 3 
     true
-  elsif integer % 2 == 0 || integer % 3 == 0 
+  elsif integer % 2 == 0 || % 3 == 0 
     false
   end
 end
