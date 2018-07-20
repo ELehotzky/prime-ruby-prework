@@ -1,10 +1,12 @@
 def prime?(integer)
   if integer < 2 
     false
-  elsif integer == 2 || integer == 3 
-    true
-  elsif integer % 2 == 0 || % 3 == 0 
-    false
+  else 
+    integer.each do |x|
+      
+      
+    end
+    
   end
 end
 
