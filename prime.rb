@@ -2,11 +2,12 @@ def prime?(integer)
   
   if integer < 2 
     false
-  else 
+  elsif 
     array = (2...integer).to_a
     integer.each do |x|
       integer % x == 0
-      true
+  else
+    false
     end
     
   end
