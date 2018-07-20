@@ -4,11 +4,10 @@ def prime?(integer)
   
   range = 2...integer
   array = (range).to_a 
+  array.map(&:to_i)
   if integer < 2 
     false
   elsif 
-    array = (2...integer).to_a
-    array.map(&:to_i)
     array.each do |x|
       integer % x == 0
       true
