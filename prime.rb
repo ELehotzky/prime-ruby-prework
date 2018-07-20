@@ -1,5 +1,7 @@
 def prime?(integer)
   
+  range = 2...integer
+  
   if integer < 2 
     false
   elsif 
