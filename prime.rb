@@ -2,13 +2,15 @@ def prime?(integer)
   
   if integer < 2 
     false
+  elsif integer == 3
+    true
   elsif 
     array = (2...integer).to_a
-    integer.each do |x|
+    array.each do |x|
       integer % x == 0
-  else
-    false
+      true
     end
+    false
     
   end
 end
